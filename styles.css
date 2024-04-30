@@ -1,205 +1,201 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #303030;
-    color: #ececec;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets the font family for the entire document */
+    background-color: #303030; /* Sets the background color of the body */
+    color: #ececec; /* Sets the text color */
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px solid;
-    display: fixed;
-    margin-inline-end: 35px;
+    display: flex; /* Displays the header as a flex container */
+    justify-content: space-between; /* Aligns items in the header with space between them */
+    align-items: center; /* Aligns items vertically in the center */
+    padding: 18px solid; /* Adds padding around the header */
+    display: fixed; /* Fix the header position */
+    margin-inline-end: 35px; /* Sets the margin at the end of the inline direction */
 }
 
-.header :hover{
-    background-color: #303030;
-    padding-top: 100px;
+.header :hover{ /* Style applied when hovering over elements with class 'header' */
+    background-color: #303030; /* Changes background color */
+    padding-top: 100px; /* Increases padding at the top */
 }
 
 #header-section {
-	background: url("bg2.jpg") no-repeat center top;
-	padding: top 0;
-	text-align:center;
-    display: flex;
-	background-position: center center;
-	min-height: 700px;
-	width: 100%;	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    margin-inline-start: 0%;
-    margin-inline-end: 0%;
+    background: url("bg2.jpg") no-repeat center top; /* Sets a background image */
+    padding: top 0; /* Sets padding at the top */
+    text-align:center; /* Aligns text to the center */
+    display: flex; /* Displays as a flex container */
+    background-position: center center; /* Sets the background position */
+    min-height: 700px; /* Sets the minimum height */
+    width: 100%; /* Sets the width */
+    -webkit-background-size: 100%; /* Sets the background size */
+    -moz-background-size: 100%; /* Sets the background size */
+    -o-background-size: 100%; /* Sets the background size */
+    background-size: 100%; /* Sets the background size */
+    -webkit-background-size: cover; /* Sets the background size */
+    -moz-background-size: cover; /* Sets the background size */
+    -o-background-size: cover; /* Sets the background size */
+    background-size: cover; /* Sets the background size */
+    margin-inline-start: 0%; /* Sets the margin at the start of the inline direction */
+    margin-inline-end: 0%; /* Sets the margin at the end of the inline direction */
 }
 
 .logo img {
-    width: 300px; 
-    height: 100px;
-    padding-left: 6%;
-    margin-top: 0%;
+    width: 300px;  /* Sets the width of the logo image */
+    height: 100px; /* Sets the height of the logo image */
+    padding-left: 6%; /* Adds padding on the left side */
+    margin-top: 0%; /* Sets the top margin */
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    list-style-type: none; /* Removes the default list style */
+    padding: 0; /* Removes padding */
+    margin: 0; /* Removes margin */
 }
 
 .profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 70%;
-    margin-right: 20px;
-    border: 3px solid #333;
+    width: 150px; /* Sets the width of the profile image */
+    height: 150px; /* Sets the height of the profile image */
+    border-radius: 70%; /* Rounds the corners of the profile image */
+    margin-right: 20px; /* Sets the right margin */
+    border: 3px solid #333; /* Adds a border around the image */
 }
 
-
 nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+    display: inline-block; /* Displays list items horizontally */
+    margin-left: 25px; /* Sets the left margin */
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #ffffff; 
-    font-weight: bold;
-    font-size: 23px;
+    text-decoration: none; /* Removes underline from links */
+    color: #ffffff;  /* Sets the color of the links */
+    font-weight: bold; /* Sets the font weight */
+    font-size: 23px; /* Sets the font size */
 }
 
-
 main {
-    padding: 20px;
+    padding: 20px; /* Adds padding around the main content */
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 40px; /* Sets bottom margin for sections */
 }
 
 h1, h2 {
-    color: #ececec;
-    font-size: 35px;
-    text-align: center;
+    color: #ececec; /* Sets the color of headings */
+    font-size: 35px; /* Sets the font size of headings */
+    text-align: center; /* Aligns headings to center */
 }
 
 h3 {
-    color:#ebebeb;
-    font-size: 60px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#ebebeb; /* Sets the color of h3 headings */
+    font-size: 60px; /* Sets the font size of h3 headings */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Sets the font family */
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 24px; /* Sets the font size of h4 headings */
 }
 
 h5 {
-    text-align: center;
-    font-size: 22px;
+    text-align: center; /* Aligns h5 headings to center */
+    font-size: 22px; /* Sets the font size of h5 headings */
 }
 
 p {
-    font-size: 23px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px; /* Sets the font size of paragraphs */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Sets the font family for paragraphs */
 }
 
 .videos {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    gap: 25px;
+    display: flex; /* Displays videos as a flex container */
+    justify-content: center; /* Aligns videos to center */
+    margin-bottom: 50px; /* Adds bottom margin to videos */
+    gap: 25px; /* Sets the gap between videos */
 }
 
 .videos iframe {
-    border: 1px solid #ddd;
+    border: 1px solid #ddd; /* Adds a border around iframes */
 }
 
 .image-container {
-    display: flex;
-    justify-content:space-evenly;
-    margin-bottom: 20px;
-    margin: 20px;
+    display: flex; /* Displays image container as a flex container */
+    justify-content:space-evenly; /* Distributes items evenly along the main axis */
+    margin-bottom: 20px; /* Adds bottom margin */
+    margin: 20px; /* Adds margin */
 }
 
 .image-container img {
-    height: 400px;
-    width: 600px;
+    height: 400px; /* Sets the height of images */
+    width: 600px; /* Sets the width of images */
 }
 
 .image-container .image-info {
-    text-align: center;
+    text-align: center; /* Aligns image information to center */
 }
 
 .images {
-    display: flex;
-    justify-content: space-between;
-
+    display: flex; /* Displays images as a flex container */
+    justify-content: space-between; /* Aligns images with space between them */
 }
 
 .images img {
-    width: 20%;
-    height: auto;
-    border: 1px solid #ddd;
+    width: 20%; /* Sets the width of images */
+    height: auto; /* Sets the height of images to auto */
+    border: 1px solid #ddd; /* Adds a border around images */
 }
 
 .image-container img {
-    padding: 10px;
-    border: 2px solid #ddd;
+    padding: 10px; /* Adds padding around images */
+    border: 2px solid #ddd; /* Adds a border around images */
 }
 
 .about-me {
-    display: flex;
-    align-items: center;
+    display: flex; /* Displays about-me section as a flex container */
+    align-items: center; /* Aligns items vertically in the center */
 }
 
 .services ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* Removes the default list style */
+    padding: 0; /* Removes padding */
 }
 
 .services ul li {
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-bottom: 10px; /* Adds bottom margin to list items */
+    font-size: 20px; /* Sets the font size of list items */
 }
 
 .contact {
-    display: table-row-group;
+    display: table-row-group; /* Displays contact as a table-row-group */
 }
 
 .contact form {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+    display: grid; /* Displays form as a grid */
+    grid-template-columns: 1fr; /* Sets the grid template columns */
+    grid-gap: 10px; /* Sets the gap between grid items */
 }
 
 .contact input,
 .contact textarea,
 .contact button {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
+    width: 100%; /* Sets the width of input fields and button */
+    padding: 10px; /* Adds padding to input fields and button */
+    border: 1px solid #ddd; /* Adds a border around input fields and button */
 }
 
 .contact button {
-    background-color: #333;
-    color: #ffffff;
-    border: none;
-    cursor: pointer;
+    background-color: #333; /* Sets the background color of the button */
+    color: #ffffff; /* Sets the text color of the button */
+    border: none; /* Removes border from the button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
 }
 
 .social-media {
-    display: flex;
-
+    display: flex; /* Displays social media icons as a flex container */
 }
 
 footer {
-    background-color: #333333;
-    color: #ffffff;
-    padding: 8px;
-    text-align: center;
-    size-adjust: 20px;
+    background-color: #333333; /* Sets the background color of the footer */
+    color: #ffffff; /* Sets the text color of the footer */
+    padding: 8px; /* Adds padding to the footer */
+    text-align: center; /* Aligns text in the center */
+    size-adjust: 20px; /* Adjusts the font size */
 }
